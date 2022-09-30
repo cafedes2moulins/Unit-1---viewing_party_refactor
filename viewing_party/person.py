@@ -11,5 +11,5 @@ class Person:
         self.watched.append(movie)
 
     def get_num_watched(self):
-        pass
+        return len(self.watched)
     
